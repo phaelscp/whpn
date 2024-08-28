@@ -1,0 +1,42 @@
+node_modules
+dist
+.env
+
+yarn.lock
+yarn-error.log
+
+/src/config/sentry.js
+
+# Ignore test-related files
+/coverage.data
+/coverage/
+
+
+#remover do diretório padrão whatrspainel
+
+#PASTAS
+.vscode/
+.git
+#Arquivos
+anotações.txt  
+
+#==============Divisão=======================#
+
+#Remover Pastas do backend
+/backend/node_modules/
+/frontend/node_modules/
+/backend/well-known/
+
+#remover arquivos Backend
+.vscode
+.env
+
+#==============Divisão=======================#
+#Remover Pastas do FrontEnd
+/frontend/build/
+/frontend/well-known/
+
+
+#remover arquivos FrontEnd
+.vscode
+.env
